@@ -22,8 +22,10 @@ curl -fsSL https://github.com/FelixKrueger/TrimGalore/archive/0.6.0.tar.gz -o tr
 tar xvzf trim_galore.tar.gz
 # Run Trim Galore
 TrimGalore-0.6.0/trim_galore
-export PATH=/home/lmmc-219/Vinicius/real_analysis/InternshipDEAnalysis/tools/TrimGalore-0.6.0:$PATH
+#export PATH=/home/lmmc-219/Vinicius/real_analysis/InternshipDEAnalysis/tools/TrimGalore-0.6.0:$PATH
+export PATH=/home/vinibfranc/Estagio/Analysis/InternshipDEAnalysis/tools/TrimGalore-0.6.0:$PATH
 
+cd ../samples
 # View quality before trimming
 fastqc *.fastq
 
