@@ -5,13 +5,13 @@ set -o pipefail
 
 #sudo apt-get install sra-toolkit
 
-#cd ..
-#mkdir -p tools
-#cd tools
-#wget http://ftp-trace.ncbi.nlm.nih.gov/sra/sdk/2.9.6-1/sratoolkit.2.9.6-1-ubuntu64.tar.gz
-#tar xzvf sratoolkit.2.9.6-1-ubuntu64.tar.gz
-export PATH=$PATH:/home/vinibfranc/Estagio/Analysis/InternshipDEAnalysis/tools/sratoolkit.2.9.6-1-ubuntu64/bin:$PATH 
-##export PATH=/home/lmmc-219/Vinicius/real_analysis/InternshipDEAnalysis/tools/sratoolkit.2.9.6-1-ubuntu64/bin:$PATH
+cd ..
+mkdir -p tools
+cd tools
+wget http://ftp-trace.ncbi.nlm.nih.gov/sra/sdk/2.9.6-1/sratoolkit.2.9.6-1-ubuntu64.tar.gz
+tar xzvf sratoolkit.2.9.6-1-ubuntu64.tar.gz
+# export PATH=$PATH:/home/vinibfranc/Estagio/Analysis/InternshipDEAnalysis/tools/sratoolkit.2.9.6-1-ubuntu64/bin:$PATH 
+# export PATH=/home/lmmc-219/Vinicius/real_analysis/InternshipDEAnalysis/tools/sratoolkit.2.9.6-1-ubuntu64/bin:$PATH
 cd ..
 mkdir -p samples
 cd samples
