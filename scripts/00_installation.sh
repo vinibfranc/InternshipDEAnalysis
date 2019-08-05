@@ -24,6 +24,9 @@ sudo apt-get install python3-pip
 pip3 install --upgrade cutadapt
 sudo apt-get install curl
 
+##### MultiQC installation #####
+pip3 install multiqc
+
 ##### Trim Galore installation #####
 
 curl -fsSL https://github.com/FelixKrueger/TrimGalore/archive/0.6.0.tar.gz -o trim_galore.tar.gz
@@ -41,3 +44,12 @@ wget https://github.com/alexdobin/STAR/archive/2.7.1a.tar.gz
 tar xvzf 2.7.1a.tar.gz
 #export PATH=/home/vinibfranc/Estagio/Analysis/InternshipDEAnalysis/tools/STAR-2.7.1a/bin/Linux_x86_64:$PATH
 #export PATH=/home/lmmc-219/Vinicius/real_analysis/InternshipDEAnalysis/tools/STAR-2.7.1a/bin/Linux_x86_64:$PATH
+
+##### HTSeq installation #####
+pip3 install HTSeq
+
+##### gffread installation #####
+wget http://cole-trapnell-lab.github.io/cufflinks/assets/downloads/cufflinks-2.2.1.Linux_x86_64.tar.gz
+tar xvzf cufflinks-2.2.1.Linux_x86_64.tar.gz
+#export PATH=/home/vinibfranc/Estagio/Analysis/InternshipDEAnalysis/tools/cufflinks-2.2.1.Linux_x86_64/:$PATH
+#export PATH=/home/lmmc-219/Vinicius/real_analysis/InternshipDEAnalysis/tools/cufflinks-2.2.1.Linux_x86_64:$PATH
