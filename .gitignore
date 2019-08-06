@@ -2,3 +2,7 @@ samples/
 tools/
 reference_genome/
 star/
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
