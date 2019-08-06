@@ -168,8 +168,8 @@ sigUpReg <- sigDownReg[order(sigDownReg$logFC, decreasing=TRUE),]
 head(sigUpReg)
 
 ## Write the results in csv files
-write.csv(sigDownReg, file="sigDownReg_tomato.csv")
-write.csv(sigUpReg, file="sigUpReg_tomato.csv")
+write.csv(sigDownReg, file="sigDownReg_e6.csv")
+write.csv(sigUpReg, file="sigUpReg_e6.csv")
 
 ## Interpreting the DE analysis results
 
