@@ -2,6 +2,7 @@ samples/
 tools/
 reference_genome/
 star/
+functional_annotation/
 .Rproj.user
 .Rhistory
 .RData
