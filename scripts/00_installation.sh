@@ -3,7 +3,6 @@ set -e
 set -u
 set -o pipefail
 
-cd ..
 mkdir -p tools
 cd tools
 

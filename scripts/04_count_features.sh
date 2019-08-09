@@ -5,7 +5,6 @@ set -o pipefail
 
 if [[ $1 == "ma_e6" ]]
 then
-    cd ..
     mkdir -p htseq/ma
     cd star/ma
 
@@ -17,7 +16,6 @@ then
 
 elif [[ $1 == "mr_arsef" ]]
 then
-    cd ..
     mkdir -p htseq/mr
     touch htseq/mr/count_table.txt
     cd star/mr

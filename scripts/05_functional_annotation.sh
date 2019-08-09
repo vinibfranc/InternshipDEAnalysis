@@ -3,8 +3,8 @@ set -e
 set -u
 set -o pipefail
 
-mkdir -p "../functional_annotation"
-cd ../functional_annotation
+mkdir -p "functional_annotation"
+cd functional_annotation
 
 wget http://ekhidna2.biocenter.helsinki.fi/barcosel/tmp//7kMrYcrHcRK/PANZ_1.html
 wget http://ekhidna2.biocenter.helsinki.fi/barcosel/tmp//7kMrYcrHcRK/PANZ_2.html

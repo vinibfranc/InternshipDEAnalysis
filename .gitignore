@@ -3,6 +3,7 @@ tools/
 reference_genome/
 star/
 functional_annotation/
+orthofinder/
 .Rproj.user
 .Rhistory
 .RData

@@ -3,11 +3,11 @@ set -e
 set -u
 set -o pipefail
 
-cd ../samples
+cd samples
 # View quality before trimming
-#fastqc *.fastq -t 4
+fastqc *.fastq -t 4
 # Quality report before alignment
-#multiqc .
+multiqc .
 
 if [[ $1 == "ma_e6" ]]
 then

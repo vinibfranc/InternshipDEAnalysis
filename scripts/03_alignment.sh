@@ -3,12 +3,12 @@ set -e
 set -u
 set -o pipefail
 
-REF="../reference_genome"
+REF="reference_genome"
 
 if [[ $1 == "ma_e6" ]]
 then
     mkdir -p $REF/index_ma
-    mkdir -p "../star/ma"
+    mkdir -p "star/ma"
 
     cd $REF
 
