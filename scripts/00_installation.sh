@@ -53,3 +53,25 @@ wget http://cole-trapnell-lab.github.io/cufflinks/assets/downloads/cufflinks-2.2
 tar xvzf cufflinks-2.2.1.Linux_x86_64.tar.gz
 #export PATH=/home/vinibfranc/Estagio/Analysis/InternshipDEAnalysis/tools/cufflinks-2.2.1.Linux_x86_64/:$PATH
 #export PATH=/home/lmmc-219/Vinicius/real_analysis/InternshipDEAnalysis/tools/cufflinks-2.2.1.Linux_x86_64:$PATH
+
+##### Orthofinder installation #####
+wget https://github.com/davidemms/OrthoFinder/releases/download/2.3.3/OrthoFinder-2.3.3.tar.gz
+tar xvzf OrthoFinder-2.3.3.tar.gz
+#export PATH=/home/vinibfranc/Estagio/Analysis/InternshipDEAnalysis/tools/OrthoFinder-2.3.3/:$PATH
+#export PATH=/home/lmmc-219/Vinicius/real_analysis/InternshipDEAnalysis/tools/OrthoFinder-2.3.3/:$PATH
+
+##### Orthofinder Dependencies #####
+
+# MCL
+sudo apt-get install mcl
+
+# DIAMOND
+wget https://github.com/bbuchfink/diamond/releases/download/v0.9.25/diamond-linux64.tar.gz
+tar xvzf diamond-linux64.tar.gz
+#sudo cp diamond /usr/local/bin
+
+# FastME
+# Access http://www.atgc-montpellier.fr/fastme/binaries.php to download
+mv /home/lmmc-219/Downloads/fastme-2.1.5.tar.gz /home/lmmc-219/Vinicius/real_analysis/InternshipDEAnalysis/tools/
+tar xvzf fastme-2.1.5.tar.gz
+sudo cp fastme-2.1.5-linux64 /usr/local/bin/fastme
