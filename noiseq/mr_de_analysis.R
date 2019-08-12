@@ -62,3 +62,4 @@ res <- data.frame(
 
 head( res[ order(res$rLogFC), ] )
 write.csv(res, file="DEG.xlsx")
+

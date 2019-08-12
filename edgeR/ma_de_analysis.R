@@ -24,8 +24,8 @@ directory <- getwd()
 dir(directory)
 
 ## Load read counts per sample file and the experiment design
-rawCountTable <- read.table("count_table_formatted.txt", header=TRUE, sep="\t", row.names=1)
-sampleInfo <- read.table("design.csv", header=TRUE, sep=",", row.names=1)
+rawCountTable <- read.table("ma_count_table_formatted.txt", header=TRUE, sep="\t", row.names=1)
+sampleInfo <- read.table("ma_design.csv", header=TRUE, sep=",", row.names=1)
 
 ## Look the count data 
 head(rawCountTable)
