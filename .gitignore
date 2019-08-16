@@ -2,7 +2,8 @@ samples/
 tools/
 reference_genome/
 star/
-functional_annotation/
+functional_annotation/arsef549/
+functional_annotation/e6/
 orthofinder/
 .Rproj.user
 .Rhistory
