@@ -168,8 +168,8 @@ sigUpReg <- sigDownReg[order(sigDownReg$logFC, decreasing=TRUE),]
 head(sigUpReg)
 
 ## Write the results in csv files
-write.csv(sigDownReg, file="sigDownReg_e6.csv")
-write.csv(sigUpReg, file="sigUpReg_e6.csv")
+write.csv(sigDownReg, file="sigDownReg_e6_new.csv")
+write.csv(sigUpReg, file="sigUpReg_e6_new.csv")
 
 ## Interpreting the DE analysis results
 
@@ -212,3 +212,4 @@ length(unique(geneClust))
 
 ## Get the genes in cluster 1
 names(which(geneClust==1))
+  
