@@ -19,3 +19,8 @@ mv GCF_000187425.2_MAA_2.0_protein.faa metarhizium_robertsii.faa
 cd ..
 
 orthofinder -f proteins/ -S diamond
+
+cd proteins/OrthoFinder/Results_Aug23/Orthogroups
+grep -Fwf Orthogroups_SingleCopyOrthologues.txt Orthogroups.txt > OrthologsIDS.txt
+sed 's/://' OrthologsIDS.txt > OrthologsIDS_2.txt
+awk -v OFS="\t" '$1=$1' OrthologsIDS_2.txt > OrthologsIDS_done.txt

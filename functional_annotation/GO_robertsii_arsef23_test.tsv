@@ -1,0 +1,150 @@
+organism	id	protein_id	go_id	ontology	description
+655844		XP_007816190.2	4420	MF	hydroxymethylglutaryl-CoA reductase (NADPH) activity
+655844		XP_007816190.2	15936	BP	coenzyme A metabolic process
+655844		XP_007816190.2	50662	MF	coenzyme binding
+655844		XP_007816190.2	55114	BP	oxidation-reduction process
+655844		XP_007816190.2	8299	BP	isoprenoid biosynthetic process
+655844		XP_007816191.1	16021	CC	integral component of membrane
+655844		XP_007816192.1	4601	MF	peroxidase activity
+655844		XP_007816192.1	6979	BP	response to oxidative stress
+655844		XP_007816192.1	16021	CC	integral component of membrane
+655844		XP_007816192.1	98869	BP	cellular oxidant detoxification
+655844		XP_007816192.1	16705	MF	oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen
+655844		XP_007816192.1	5506	MF	iron ion binding
+655844		XP_007816192.1	20037	MF	heme binding
+655844		XP_007816192.1	55114	BP	oxidation-reduction process
+655844		XP_007816192.1	51213	MF	dioxygenase activity
+655844		XP_007816193.1	16021	CC	integral component of membrane
+655844		XP_007816195.2	4252	MF	serine-type endopeptidase activity
+655844		XP_007816195.2	6508	BP	proteolysis
+655844		XP_007816196.1	9116	BP	nucleoside metabolic process
+655844		XP_007816196.1	5789	CC	endoplasmic reticulum membrane
+655844		XP_007816196.1	3824	MF	catalytic activity
+655844		XP_007816196.1	3676	MF	nucleic acid binding
+655844		XP_007816196.1	16109	BP	tetraterpenoid biosynthetic process
+655844		XP_007816196.1	5524	MF	ATP binding
+655844		XP_007816196.1	16116	BP	carotenoid metabolic process
+655844		XP_007816196.1	16021	CC	integral component of membrane
+655844		XP_007816196.1	46148	BP	pigment biosynthetic process
+655844		XP_007816196.1	15031	BP	protein transport
+655844		XP_007816196.1	6468	BP	protein phosphorylation
+655844		XP_007816196.1	55114	BP	oxidation-reduction process
+655844		XP_007816197.1	31221	BP	arabinan metabolic process
+655844		XP_007816197.1	46556	MF	alpha-L-arabinofuranosidase activity
+655844		XP_007816197.1	5576	CC	extracellular region
+655844		XP_007816197.1	46373	BP	L-arabinose metabolic process
+655844		XP_007816197.1	16021	CC	integral component of membrane
+655844		XP_007816197.1	30246	MF	carbohydrate binding
+655844		XP_007816197.1	9044	MF	xylan 1,4-beta-xylosidase activity
+655844		XP_007816197.1	33819	MF	lipoyl(octanoyl) transferase activity
+655844		XP_007816197.1	4672	MF	protein kinase activity
+655844		XP_007816197.1	45493	BP	xylan catabolic process
+655844		XP_007816197.1	5524	MF	ATP binding
+655844		XP_007816197.1	45490	BP	pectin catabolic process
+655844		XP_007816197.1	9249	BP	protein lipoylation
+655844		XP_007816197.1	6468	BP	protein phosphorylation
+655844		XP_007816199.1	16705	MF	oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen
+655844		XP_007816199.1	55114	BP	oxidation-reduction process
+655844		XP_007816199.1	16021	CC	integral component of membrane
+655844		XP_007816199.1	5506	MF	iron ion binding
+655844		XP_007816199.1	20037	MF	heme binding
+655844		XP_007816199.1	6351	BP	transcription, DNA-templated
+655844		XP_007816199.1	5634	CC	nucleus
+655844		XP_007816199.1	10124	BP	phenylacetate catabolic process
+655844		XP_007816199.1	775	CC	chromosome, centromeric region
+655844		XP_007816199.1	4497	MF	monooxygenase activity
+655844		XP_007816199.1	3899	MF	DNA-directed 5'-3' RNA polymerase activity
+655844		XP_007816199.1	3677	MF	DNA binding
+655844		XP_007816199.1	8270	MF	zinc ion binding
+655844		XP_007816199.1	981	MF	DNA-binding transcription factor activity, RNA polymerase II-specific
+655844		XP_007816199.1	16787	MF	hydrolase activity
+655844		XP_007816199.1	6357	BP	regulation of transcription by RNA polymerase II
+655844		XP_007816199.1	45132	BP	meiotic chromosome segregation
+655844		XP_007816200.2	9116	BP	nucleoside metabolic process
+655844		XP_007816200.2	43531	MF	ADP binding
+655844		XP_007816200.2	5871	CC	kinesin complex
+655844		XP_007816200.2	3777	MF	microtubule motor activity
+655844		XP_007816200.2	3676	MF	nucleic acid binding
+655844		XP_007816200.2	5887	CC	integral component of plasma membrane
+655844		XP_007816200.2	9298	BP	GDP-mannose biosynthetic process
+655844		XP_007816200.2	6468	BP	protein phosphorylation
+655844		XP_007816200.2	5975	BP	carbohydrate metabolic process
+655844		XP_007816200.2	4476	MF	mannose-6-phosphate isomerase activity
+655844		XP_007816200.2	16620	MF	oxidoreductase activity, acting on the aldehyde or oxo group of donors, NAD or NADP as acceptor
+655844		XP_007816200.2	8270	MF	zinc ion binding
+655844		XP_007816200.2	4672	MF	protein kinase activity
+655844		XP_007816200.2	55085	BP	transmembrane transport
+655844		XP_007816200.2	55114	BP	oxidation-reduction process
+655844		XP_007816200.2	5524	MF	ATP binding
+655844		XP_007816201.1	5388	MF	calcium transmembrane transporter activity, phosphorylative mechanism
+655844		XP_007816201.1	70588	BP	calcium ion transmembrane transport
+655844		XP_007816201.1	16021	CC	integral component of membrane
+655844		XP_007816201.1	71628	CC	intrinsic component of fungal-type vacuolar membrane
+655844		XP_007816201.1	6874	BP	cellular calcium ion homeostasis
+655844		XP_007816201.1	5524	MF	ATP binding
+655844		XP_007816201.1	5750	CC	mitochondrial respiratory chain complex III
+655844		XP_007816201.1	9308	BP	amine metabolic process
+655844		XP_007816201.1	8131	MF	primary amine oxidase activity
+655844		XP_007816201.1	55114	BP	oxidation-reduction process
+655844		XP_007816201.1	35690	BP	cellular response to drug
+655844		XP_007816201.1	5507	MF	copper ion binding
+655844		XP_007816201.1	48038	MF	quinone binding
+655844		XP_007816201.1	16620	MF	oxidoreductase activity, acting on the aldehyde or oxo group of donors, NAD or NADP as acceptor
+655844		XP_007816201.1	6119	BP	oxidative phosphorylation
+655844		XP_007816201.1	16787	MF	hydrolase activity
+655844		XP_007816202.1	6629	BP	lipid metabolic process
+655844		XP_007816202.1	16787	MF	hydrolase activity
+655844		XP_007816202.1	5634	CC	nucleus
+655844		XP_007816202.1	43565	MF	sequence-specific DNA binding
+655844		XP_007816202.1	3700	MF	DNA-binding transcription factor activity
+655844		XP_007816202.1	1901575	BP	organic substance catabolic process
+655844		XP_007816202.1	16021	CC	integral component of membrane
+655844		XP_007816202.1	16491	MF	oxidoreductase activity
+655844		XP_007816202.1	6355	BP	regulation of transcription, DNA-templated
+655844		XP_007816202.1	55114	BP	oxidation-reduction process
+655844		XP_007816203.1	8168	MF	methyltransferase activity
+655844		XP_007816203.1	32259	BP	methylation
+655844		XP_007816203.1	16021	CC	integral component of membrane
+655844		XP_007816203.1	9234	BP	menaquinone biosynthetic process
+655844		XP_007816205.1	5887	CC	integral component of plasma membrane
+655844		XP_007816205.1	55085	BP	transmembrane transport
+655844		XP_007816206.1	16021	CC	integral component of membrane
+655844		XP_007816207.1	16021	CC	integral component of membrane
+655844		XP_007816207.1	16705	MF	oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen
+655844		XP_007816207.1	55114	BP	oxidation-reduction process
+655844		XP_007816207.1	5506	MF	iron ion binding
+655844		XP_007816207.1	20037	MF	heme binding
+655844		XP_007816208.1	16705	MF	oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen
+655844		XP_007816208.1	55114	BP	oxidation-reduction process
+655844		XP_007816208.1	16021	CC	integral component of membrane
+655844		XP_007816208.1	5506	MF	iron ion binding
+655844		XP_007816208.1	4497	MF	monooxygenase activity
+655844		XP_007816208.1	6696	BP	ergosterol biosynthetic process
+655844		XP_007816208.1	20037	MF	heme binding
+655844		XP_007816208.1	30425	CC	dendrite
+655844		XP_007816208.1	98793	CC	presynapse
+655844		XP_007816208.1	98794	CC	postsynapse
+655844		XP_007816208.1	5789	CC	endoplasmic reticulum membrane
+655844		XP_007816208.1	4329	MF	formate-tetrahydrofolate ligase activity
+655844		XP_007816208.1	4488	MF	methylenetetrahydrofolate dehydrogenase (NADP+) activity
+655844		XP_007816208.1	16829	MF	lyase activity
+655844		XP_007816208.1	5524	MF	ATP binding
+655844		XP_007816208.1	42448	BP	progesterone metabolic process
+655844		XP_007816208.1	1900271	BP	regulation of long-term synaptic potentiation
+655844		XP_007816208.1	6707	BP	cholesterol catabolic process
+655844		XP_007816208.1	6805	BP	xenobiotic metabolic process
+655844		XP_007816209.2	4329	MF	formate-tetrahydrofolate ligase activity
+655844		XP_007816209.2	55114	BP	oxidation-reduction process
+655844		XP_007816209.2	5737	CC	cytoplasm
+655844		XP_007816209.2	4488	MF	methylenetetrahydrofolate dehydrogenase (NADP+) activity
+655844		XP_007816209.2	9257	BP	10-formyltetrahydrofolate biosynthetic process
+655844		XP_007816209.2	9113	BP	purine nucleobase biosynthetic process
+655844		XP_007816209.2	5524	MF	ATP binding
+655844		XP_007816209.2	4477	MF	methenyltetrahydrofolate cyclohydrolase activity
+655844		XP_007816210.1	46695	CC	SLIK (SAGA-like) complex
+655844		XP_007816210.1	46982	MF	protein heterodimerization activity
+655844		XP_007816210.1	6352	BP	DNA-templated transcription, initiation
+655844		XP_007816210.1	124	CC	SAGA complex
+655844		XP_007816210.1	3676	MF	nucleic acid binding
+655844		XP_007816210.1	5669	CC	transcription factor TFIID complex
+655844		XP_007816211.1	16491	MF	oxidoreductase activity
