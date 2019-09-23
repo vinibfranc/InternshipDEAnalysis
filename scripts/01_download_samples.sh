@@ -12,11 +12,9 @@ then
     # Metarhizium anisopliae E6 transcriptome - I-144h (144 h tick cuticle infection condition)
     fasterq-dump -p SRR1536287
     fasterq-dump -p SRR1536288
-
     # Metarhizium anisopliae E6 transcriptome - I-48h (48 h tick cuticle infection condition)
     fasterq-dump -p SRR1536285
     fasterq-dump -p SRR1536286
-
     # Metarhizium anisopliae E6 transcriptome - C-48h (Control condition)
     fasterq-dump -p SRR1536283
     fasterq-dump -p SRR1536284
@@ -33,10 +31,10 @@ elif [[ $1 == "mr_arsef" ]]
 then
     # Metarhizium robertsii ARSEF 23 - Control conidia
     fasterq-dump -p SRR1063454
-
     # Metarhizium robertsii ARSEF 23 - Heat-treated conidia
     fasterq-dump -p SRR1063457
 
+    # Rename files
     mv SRR1063454.fastq SRR1063454_control.fastq
     mv SRR1063457.fastq SRR1063457_heat.fastq
 else

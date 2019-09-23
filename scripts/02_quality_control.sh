@@ -23,6 +23,7 @@ then
     # Quality report after alignment
     cd q24
     multiqc .
+    
 elif [[ $1 == "mr_arsef" ]]
 then
     # Trimming sequences
