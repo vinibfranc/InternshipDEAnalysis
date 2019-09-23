@@ -34,7 +34,7 @@ A instalação dos programas e de suas dependências, bem como a adição das fe
 make installation
 ```
 
-Essa é uyma regra estabelecida no ```Makefile``` associada ao script presente em ```scripts/00_installation.sh```.
+Essa é uma regra estabelecida no ```Makefile``` associada ao script presente em ```scripts/00_installation.sh```.
 
 ## 2. Download das amostras no Sequence Read Archive
 
@@ -70,7 +70,7 @@ Essa regra foi definida para os organismos em análise no estágio, mas o arquiv
 
 ## 4. Alinhamento ao genoma e anotação de referência
 
-O alinhamento ao genoma e anotação de referência foi realizado o programa [STAR](https://github.com/alexdobin/STAR). O genoma e a anotação de Metarhizium anisopliae ARSEF 549 (usado com referência para Metarhizium anisopliae E6) e Metarhizium robertsii ARSEF 23 foram obtidos no NCBI Genome. A conversão dos arquivos GFF do NCBI para GTF foi feita dentro do próprio script usando o programa gffread do Cufflinks.
+O alinhamento ao genoma e anotação de referência foi realizado o programa [STAR](https://github.com/alexdobin/STAR). O genoma e a anotação de Metarhizium anisopliae ARSEF 549 (usado com referência para Metarhizium anisopliae E6) e Metarhizium robertsii ARSEF 23 foram obtidos no [NCBI Genome](https://www.ncbi.nlm.nih.gov/genome). A conversão dos arquivos GFF do NCBI para GTF foi feita dentro do próprio script usando o programa gffread do [Cufflinks](http://cole-trapnell-lab.github.io/cufflinks/).
 
 Para executar o alinhamento execute os seguintes comandos:
 
@@ -114,7 +114,7 @@ As análises podem ser realizadas usando o script ```ma_de_analysis.R``` present
 
 A anotação funcional dos organismos foi gerads no web server do [Pannzer2](http://ekhidna2.biocenter.helsinki.fi/sanspanz/) após a submissão das sequências de proteínas dos organismso e do recebimento dos resultados por e-mail.
 
-Esses arquivos podem ser baixados por linha de comando, como feito no arquivo ```05_functional_annoation.sh``` presente em ```scripts```, ou então baixados manualmente. O arquivo importante desta análise é o ```GO.out```, o qual precisa ser formatado como arquivo TSV e, depois, preparado usando os seguintes comandos:
+Esses arquivos podem ser baixados por linha de comando, como feito no arquivo ```05_functional_annoation.sh``` presente em ```scripts```, ou então baixados manualmente. O arquivo importante desta análise é o ```GO.out```, o qual precisa ser formatado como arquivo TSV e com as colunas adequadas e, depois, preparado usando os seguintes comandos:
 
 ```
 cd all_files_to_upload
@@ -138,6 +138,6 @@ Dentro do script serão extraídos apenas os ortólogos single copy para correta
 
 ---------------------
 
-Desenvolvido por Vinícius Franceschi em [UBTEC](https://www.facebook.com/ubtec.ufrgs/) - [CBiot](http://www.cbiot.ufrgs.br/) - UFRGS.
+Desenvolvido por Vinícius Franceschi em [UBTEC](https://www.facebook.com/ubtec.ufrgs/) - [CBiot](http://www.cbiot.ufrgs.br/) - [UFRGS](http://www.ufrgs.br/ufrgs/inicial).
 
 Dúvidas, problemas ou sugestões de melhorias podem ser enviadas para: vinibfranc@gmail.com
